@@ -8,7 +8,7 @@ Building upon the ashes of LaF, PC7 bring new features to the table.<br>
 Improving upon a well known and respected client, PC7 offers much improved performance on many devices.<br>
 PC7 allows the user to choose whether to use the legacy LaF chromnium switches, or more 'modern' switches that better utilize most hardware.
 
-## How to install
+## How to install PC7
 1. Download the [latest release](https://github.com/AceSilentKill/PC7-Client/releases/latest).\
 **Tip:** Ensure you are downloading the proper file for your device.
 
@@ -18,18 +18,19 @@ PC7 allows the user to choose whether to use the legacy LaF chromnium switches, 
 3. Follow the dialog.\
 **Tip:** Changing the defualt install path is not recommended.
 
-## About ResourceSwapper
+## About Resource Swapper
 - Path: `%HOMEPATH%\Documents\PC7Swap`
 - You can use it the same as other client's swappers. Please set the file's to `MOD`.
 
 ## About EasyCSS
-![EasyCSS](./app/img/readme/easycss-1.png)\
+![EasyCSS](./media/easycss-1.png)\
 EasyCSS is a system that allows you to load custom css's easier.
 <br>
 This feature allows you to swap your CSS in realtime, without using swapper or refreshing.
+This feature has ceased to function in LaF but has been updated to work once again.
 
 ## Twitch !link command
-![Twitch Login](./app/img/readme/twitch-1.png)
+![Twitch Login](./media/twitch-1.png)
 
 1. Login to Twitch in settings
 2. Your viewers can use `!link` command in your stream chat.
@@ -37,16 +38,18 @@ This feature allows you to swap your CSS in realtime, without using swapper or r
 ### Tips
 - You can toggle whether `!link` command is enabled in your stream chat in settings!.
 
-## KeyBinds
+## Keybinds
 |  Key  |         Function         |
 | :---: | :----------------------: |
 |  F5   |          Reload          |
-|  F6   | Join a Random new Game |
-|  F7   |         Copy Game URL         |
+|  F6   |  Join a Random new Game  |
+|  F7   |      Copy Game URL       |
 |  F8   |  Open URL in Clipboard   |
 |  F12  |      Open Dev Tools      |
 
-[^1]: You can specify gamemode/region in the client settings.
+## Keyboard Overlay
+![Keyboard Overlay](./media/keyboard_overlay.png)\
+PC7 lets you configure a keyboard overlay.
 
 ## About The Developers
 
