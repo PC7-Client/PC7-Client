@@ -22,10 +22,6 @@ PC7 allows the user to choose whether to use the legacy LaF chromnium switches, 
 - Path: `%HOMEPATH%\Documents\PC7Swap`
 - You can use it the same as other client's swappers. Please set the file's to `MOD`.
 
-## ~~About HyperQuickJoin~~
-![HyperQuickJoin](./app/img/readme/hyperquickjoin-1.png)<br>
-~~- You can join to your favorite gamemode with F4![^1]~~ Temporarily Disabled
-
 ## About EasyCSS
 ![EasyCSS](./app/img/readme/easycss-1.png)\
 EasyCSS is a system that allows you to load custom css's easier.
@@ -44,12 +40,11 @@ This feature allows you to swap your CSS in realtime, without using swapper or r
 ## KeyBinds
 |  Key  |         Function         |
 | :---: | :----------------------: |
-|  ~~F4~~   |   ~~Jump to new game[^1]~~ Temporarily Disabled   |
 |  F5   |          Reload          |
 |  F6   | Join a Random new Game |
 |  F7   |         Copy Game URL         |
 |  F8   |  Open URL in Clipboard   |
-|  ~~F12~~  |      ~~Open Dev Tools~~      |
+|  F12  |      Open Dev Tools      |
 
 [^1]: You can specify gamemode/region in the client settings.
 
