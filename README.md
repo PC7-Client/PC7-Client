@@ -8,7 +8,7 @@ Building upon the ashes of LaF, PC7 bring new features to the table.<br>
 Improving upon a well known and respected client, PC7 offers much improved performance on many devices.<br>
 PC7 allows the user to choose whether to use the legacy LaF chromnium switches, or more 'modern' switches that better utilize most hardware.
 
-## How to install PC7
+## How do I install PC7?
 1. Download the [latest release](https://github.com/AceSilentKill/PC7-Client/releases/latest).\
 **Tip:** Ensure you are downloading the proper file for your device.
 
@@ -23,31 +23,22 @@ PC7 allows the user to choose whether to use the legacy LaF chromnium switches, 
 - You can use it the same as other client's swappers. Please set the file's to `MOD`.
 
 ## About EasyCSS
-![EasyCSS](./media/easycss-1.png)\
+![EasyCSS](./media/easycss.png)\
 EasyCSS is a system that allows you to load custom css's easier.
 <br>
-This feature allows you to swap your CSS in realtime, without using swapper or refreshing.
-This feature has ceased to function in LaF but has been updated to work once again.
+This feature allows you to swap your CSS in realtime, without resouce swapping or refreshing.
 
 ## Twitch !link command
-![Twitch Login](./media/twitch-1.png)
+![Twitch Login](./media/twitch.png)
 
 1. Login to Twitch in settings
 2. Your viewers can use `!link` command in your stream chat.
 
 ### Tips
 - You can toggle whether `!link` command is enabled in your stream chat in settings!.
+ 
+# New Features:
 
-## Keybinds
-|  Key  |         Function         |
-| :---: | :----------------------: |
-|  F5   |          Reload          |
-|  F6   |  Join a Random new Game  |
-|  F7   |      Copy Game URL       |
-|  F8   |  Open URL in Clipboard   |
-|  F12  |      Open Dev Tools      |
-
-### New Features:
 ## Keyboard Overlay
 ![Keyboard Overlay](./media/KeyStrokesOverlay.png)\
 PC7 lets you configure your keyboard overlay.
@@ -64,8 +55,17 @@ PC7 offers some UI tweaking features. (More to come)
 ![Fun Options](./media/Fun.png)\
 PC7 offers a variety "fun" features.
 
-## About The Developers
+## Keybinds
+|  Key  |         Function         |
+| :---: | :----------------------: |
+|  F5   |          Reload          |
+|  F6   |     Join a New Game      |
+|  F7   |      Copy Game URL       |
+|  F8   |  Open URL in Clipboard   |
+|  F12  |      Open Dev Tools      |
 
+
+## About The Developers
 ### [AceSilentKill](https://krunker.io/social.html?p=profile&q=acesilentkill) / **Client Dev, Designer**
 ### [PokeCuber7](https://krunker.io/social.html?p=profile&q=PokeCuber7) / **Owner, Designer**
 
