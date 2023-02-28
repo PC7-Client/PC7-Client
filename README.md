@@ -35,7 +35,7 @@ EasyCSS is a system that allows you to load custom css's easier.
 2. Your viewers can use `!link` command in your stream chat.
 
 ### Tips
-- You can toggle whether `!link` command is enabled in your stream chat in settings!.
+- You can toggle whether `!link` command is enabled in your stream chat in settings.
  
 # New Features:
 
