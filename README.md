@@ -64,6 +64,11 @@ PC7 offers a variety "fun" features.
 |  F8   |  Open URL in Clipboard   |
 |  F12  |      Open Dev Tools      |
 
+## Note
+ - Special thanks to the following people who supported the development of this project:
+[Z3dboy](https://krunker.io/social.html?p=profile&q=ASA_z3db0y)
+[Creepycats / Gato](https://krunker.io/social.html?p=profile&q=creepycats)
+[Forgoted / тєямιηαℓ](https://krunker.io/social.html?p=profile&q=%D1%82%D1%94%D1%8F%D0%BC%CE%B9%CE%B7%CE%B1%E2%84%93)
 
 ## About The Developers
 ### [AceSilentKill](https://krunker.io/social.html?p=profile&q=acesilentkill) / **Client Dev, Designer**
