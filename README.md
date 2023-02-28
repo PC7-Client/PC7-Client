@@ -47,9 +47,22 @@ This feature has ceased to function in LaF but has been updated to work once aga
 |  F8   |  Open URL in Clipboard   |
 |  F12  |      Open Dev Tools      |
 
+### New Features:
 ## Keyboard Overlay
-![Keyboard Overlay](./media/keyboard_overlay.png)\
-PC7 lets you configure a keyboard overlay.
+![Keyboard Overlay](./media/KeyStrokesOverlay.png)\
+PC7 lets you configure your keyboard overlay.
+
+## Quality Of Life Features
+![Quality Of Life Features](./media/QualityOfLife.png)\
+PC7 offers a variety of standard "QOL" features.
+
+## UI Tweaks
+![UI Tweaks](./media/UITweaks.png)\
+PC7 offers some UI tweaking features. (More to come)
+
+## Fun Options
+![Fun Options](./media/Fun.png)\
+PC7 offers a variety "fun" features.
 
 ## About The Developers
 
