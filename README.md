@@ -55,14 +55,19 @@ PC7 offers some UI tweaking features. (More to come)
 ![Fun Options](./media/Fun.png)\
 PC7 offers a variety "fun" features.
 
+## Chat Logs
+![Fun Options](./media/ChatLogs.png)\
+PC7 allows you to save game chat logs.
+
 ## Keybinds
 |  Key  |         Function         |
 | :---: | :----------------------: |
+|  F1   |     Open Chat Logger     |
+|  F2   |        Log Chats         |
 |  F5   |          Reload          |
 |  F6   |     Join a New Game      |
 |  F7   |      Copy Game URL       |
 |  F8   |  Open URL in Clipboard   |
-|  F12  |      Open Dev Tools      |
 
 ## Note
 Special thanks to the following people who supported the development of this project:
