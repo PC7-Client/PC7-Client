@@ -73,6 +73,12 @@ PC7 allows you to save logs of game chat.
 |  F8   |  Open URL in Clipboard   |
 
 ## Note
+We plan on working on the following in the near future:
+ - Fixing swapper, as it appears to not work for some people.
+ - Adding back the temporarily disabled Alt Manager.
+ - Various other QOL improvements.
+
+## <3
 Special thanks to the following people who supported the development of this project:
  - [Z3dboy](https://krunker.io/social.html?p=profile&q=ASA_z3db0y)
  - [Creepycats / Gato](https://krunker.io/social.html?p=profile&q=creepycats)
