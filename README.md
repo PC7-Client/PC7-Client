@@ -1,6 +1,6 @@
 # PC7 Client for Krunker
 
-**Feel free to join our [Discord](https://www.youtube.com/watch?v=xvFZjo5PgG0)**
+**Feel free to join our [~~Discord~~](https://www.youtube.com/watch?v=xvFZjo5PgG0)** (Coming Soon)
 
 ## What is PC7?
 **PC7 is short for PokeCuber7**<br>
@@ -57,7 +57,10 @@ PC7 offers a variety "fun" features.
 
 ## Chat Logs
 ![Fun Options](./media/ChatLogs.png)\
-PC7 allows you to save game chat logs.
+PC7 allows you to save logs of game chat.
+ - Enables easier screenshots or copying in situations where game chat may scroll too fast.
+ - All items clickable inside game chat are clickable inside your chat logs as well.
+ - Right click a log to copy all text.
 
 ## Keybinds
 |  Key  |         Function         |
