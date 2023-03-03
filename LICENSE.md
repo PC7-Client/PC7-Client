@@ -5,8 +5,8 @@
 
 # Author's Note:
   - This client was built upon the ashes of LaF.
-  - All parts of the original LaF codebase that I have used in this project are licensed under the following MIT License:
-
+  - All parts of the original LaF codebase that I have used in this project were licensed under the following MIT License:
+```
 MIT License
 
 Copyright (c) 2021 Hiro527
@@ -28,4 +28,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
- 
+```
+  - This license will be bundled inside of all copies of PC7.
