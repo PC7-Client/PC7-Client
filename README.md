@@ -1,6 +1,6 @@
 # PC7 Client for Krunker
 
-**Feel free to join our [~~Discord~~](https://www.youtube.com/watch?v=xvFZjo5PgG0)** (Coming Soon)
+**Feel free to join our [~~Discord~~](https://discord.gg/BxweEFyZFm)**
 
 ## What is PC7?
 **PC7 is short for PokeCuber7**<br>
