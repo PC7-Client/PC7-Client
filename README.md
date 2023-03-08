@@ -1,5 +1,10 @@
 # PC7 Client for Krunker
 
+![TitleImage](./media/loadingscreen-2.png)</br>
+[![Latest](https://img.shields.io/github/v/release/AceSilentKill/PC7-Client)](https://github.com/AceSilentKill/PC7-Client/releases/latest)
+[![Latest Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/latest/total)](https://github.com/AceSilentKill/PC7-Client/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/total?logo=appveyor)](https://github.com/AceSilentKill/PC7-Client/releases)</br>
+
 **Feel free to join our [Discord](https://discord.gg/BxweEFyZFm)**...
 
 ## What is PC7?
@@ -10,7 +15,8 @@
 
 ## How do I install PC7?
 1. Download the [latest release](https://github.com/AceSilentKill/PC7-Client/releases/latest).\
-**Tip:** Ensure you are downloading the proper file for your device.
+**Tip:** Ensure you are downloading the proper file for your device.<br>
+**Tip:** The majority of users on Windows will need to install x64 versions.
 
 1. Run the file you downloaded.\
 **Tip:** If your pc shows a message stating 'Windows protected your pc', ignore it. Just press 'Run anyway' to continue the installation.
@@ -74,9 +80,8 @@ PC7 allows you to save logs of game chat.
 
 ## Note
 We plan on working on the following in the near future:
- - Fixing swapper, as it appears to not work for some people.
- - Adding back the temporarily disabled Alt Manager.
- - Various other QOL improvements.
+ - Fixing swapper, as it is currently broken for some people.
+ - Various other planned QOL improvements.
 
 ## <3
 Special thanks to the following people who supported the development of this project:
