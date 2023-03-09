@@ -73,15 +73,11 @@ PC7 allows you to save logs of game chat.
 | :---: | :----------------------: |
 |  F1   |     Open Chat Logger     |
 |  F2   |        Log Chats         |
+|  F3   |    Connection Checker    |
 |  F5   |          Reload          |
 |  F6   |     Join a New Game      |
 |  F7   |      Copy Game URL       |
 |  F8   |  Open URL in Clipboard   |
-
-## Note
-We plan on working on the following in the near future:
- - Fixing swapper, as it is currently broken for some people.
- - Various other planned QOL improvements.
 
 ## <3
 Special thanks to the following people who supported the development of this project:
