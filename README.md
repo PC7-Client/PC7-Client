@@ -26,7 +26,7 @@
 
 ## About Resource Swapper
 - Path: `%HOMEPATH%\Documents\PC7Swap`
-- You can use it the same as other client's swappers. Please set the file's to `MOD`.
+- Works similar to other client's swappers. The folder structure works the same as your standard mod.
 
 ## About EasyCSS
 ![EasyCSS](./media/easycss.png)\
