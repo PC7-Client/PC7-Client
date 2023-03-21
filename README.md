@@ -1,4 +1,4 @@
-# PC7 Client for Krunker <meta name="google-site-verification" content="qaSJmGnrCMZi93hp0sfKOZryZrY5YxjvMrRjj37CSdI"/>
+# PC7 Client for Krunker <meta name="google-site-verification" content="qaSJmGnrCMZi93hp0sfKOZryZrY5YxjvMrRjj37CSdI" />
 
 ![TitleImage](./media/loadingscreen-2.png)</br>
 [![Latest](https://img.shields.io/github/v/release/AceSilentKill/PC7-Client)](https://github.com/AceSilentKill/PC7-Client/releases/latest)
