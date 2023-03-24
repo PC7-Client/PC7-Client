@@ -14,7 +14,7 @@
 
 ## What is PC7?
 **PC7 is short for PokeCuber7**<br>
-- Building upon the ashes of LaF, PC7 bring new features to the table.<br>
+- Building upon the ashes of LaF, PC7 brings new features to the table.<br>
 - Improving upon a well known and respected client, PC7 offers much improved performance on many devices.<br>
 - PC7 allows the user to choose whether to use the legacy LaF chromnium switches, or more 'modern' switches that better utilize most hardware.
 
