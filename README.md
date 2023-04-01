@@ -19,7 +19,7 @@
 - PC7 allows the user to choose whether to use the legacy LaF chromnium switches, or more 'modern' switches that better utilize most hardware.
 
 ## How do I install PC7?
-1. Download the [latest release](https://github.com/AceSilentKill/PC7-Client/releases/latest).\
+1. Download the [client here](https://acesilentkill.github.io/PC7-Client/) by clicking *Download*. (Or view the latest releases [here](https://github.com/AceSilentKill/PC7-Client/releases/latest).)   
 **Tip:** Ensure you are downloading the proper file for your device.<br>
 **Tip:** The majority of users on Windows will need to install x64 versions.
 
@@ -79,6 +79,7 @@ PC7 allows you to save logs of game chat.
 |  F1   |     Open Chat Logger     |
 |  F2   |        Log Chats         |
 |  F3   |    Connection Checker    |
+|  F4   |       Matchmaker++       |
 |  F5   |          Reload          |
 |  F6   |     Join a New Game      |
 |  F7   |      Copy Game URL       |
