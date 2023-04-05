@@ -79,7 +79,7 @@ PC7 allows you to save logs of game chat.
 |  F1   |     Open Chat Logger     |
 |  F2   |        Log Chats         |
 |  F3   |    Connection Checker    |
-|  F4   |       Matchmaker++       |
+|  F4   |      HyperQuickJoin      |
 |  F5   |          Reload          |
 |  F6   |     Join a New Game      |
 |  F7   |      Copy Game URL       |
