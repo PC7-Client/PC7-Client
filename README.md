@@ -5,7 +5,7 @@
 -->
 # PC7 Client for Krunker 
 
-![TitleImage](./media/loadingscreen-2.png)</br>
+![TitleImage](./media/loadingscreen-1.png)</br>
 [![Latest](https://img.shields.io/github/v/release/AceSilentKill/PC7-Client)](https://github.com/AceSilentKill/PC7-Client/releases/latest)
 [![Latest Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/latest/total)](https://github.com/AceSilentKill/PC7-Client/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/total?logo=appveyor)](https://github.com/AceSilentKill/PC7-Client/releases)</br>
