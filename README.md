@@ -39,17 +39,21 @@
 EasyCSS is a system that allows you to load custom css's easier.
 <br>
 - This feature allows you to swap your CSS in realtime, without resouce swapping or refreshing.
-
-## Twitch !link command
-![Twitch Login](./media/twitch.png)
-
-1. Login to Twitch in settings
-2. Your viewers can use `!link` command in your stream chat.
-
-### Tips
-- You can toggle whether `!link` command is enabled in your stream chat in settings.
  
 # New Features:
+## Twitch Integration
+![Twitch Login](./media/twitch.png)
+
+1. Login to Twitch in settings.
+2. Restart PC7.
+
+- Your viewers can use `!link` command in your stream chat when the setting is enabled to get the link to your game.
+- Your twitch chat (emotes + role badges) can be shown in game above game chat.
+- You can customize the default name color for users with no color set, as well as the height of the twitch chat element.
+
+### Tips
+- You can toggle whether `!link` command is enabled in your stream chat in settings or via the link button when alt manager UI is enabled.
+- You can right click the link button when alt manager UI is enabled to send the game link even when the command is disabled for your viewers.
 
 ## Keyboard Overlay
 ![Keyboard Overlay](./media/KeyStrokesOverlay.png)\
