@@ -10,13 +10,14 @@
 [![Latest Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/latest/total)](https://github.com/AceSilentKill/PC7-Client/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/total?logo=appveyor)](https://github.com/AceSilentKill/PC7-Client/releases)</br>
 
-**Feel free to join our [Discord](https://discord.gg/BxweEFyZFm)**...
+**Please to join our [Discord](https://discord.gg/BxweEFyZFm)**...
 
 ## What is PC7?
 **PC7 is short for PokeCuber7**<br>
 - Building upon the ashes of LaF, PC7 brings new features to the table.<br>
 - Improving upon a well known and respected client, PC7 offers much improved performance on many devices.<br>
-- PC7 allows the user to choose whether to use the legacy LaF chromnium switches, or more 'modern' switches that better utilize most hardware.
+- PC7 allows the user to choose whether to use the legacy LaF chromnium switches, or more 'modern' switches that better utilize most hardware.<br>
+- PC7 performs similar to (or better) than many other popular clients.
 
 ## How do I install PC7?
 1. Download the [client here](https://acesilentkill.github.io/PC7-Client/) by clicking *Download*. (Or view the latest releases [here](https://github.com/AceSilentKill/PC7-Client/releases/latest).)   
