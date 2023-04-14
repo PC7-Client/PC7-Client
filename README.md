@@ -8,9 +8,8 @@
 ![TitleImage](./media/loadingscreen-1.png)</br>
 [![Latest](https://img.shields.io/github/v/release/AceSilentKill/PC7-Client)](https://github.com/AceSilentKill/PC7-Client/releases/latest)
 [![Latest Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/latest/total)](https://github.com/AceSilentKill/PC7-Client/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/total?logo=appveyor)](https://github.com/AceSilentKill/PC7-Client/releases)</br>
-
-**Please to join our [Discord](https://discord.gg/BxweEFyZFm)**...
+[![Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/total?logo=appveyor)](https://github.com/AceSilentKill/PC7-Client/releases)
+[![Discord](https://img.shields.io/discord/1081864043570147400?color=blue&label=discord)](https://discord.gg/BxweEFyZFm) </br>
 
 ## What is PC7?
 **PC7 is short for PokeCuber7**<br>
