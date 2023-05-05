@@ -19,7 +19,7 @@
 - PC7 performs similar to (or better) than many other popular clients.
 
 ## How do I install PC7?
-1. Download the [client here](https://acesilentkill.github.io/PC7-Client/) by clicking *Download*. (Or view the latest releases [here](https://github.com/AceSilentKill/PC7-Client/releases/latest).)   
+1. Download the [client here](https://pc7client.com) by clicking *Download*. (Or view the latest releases [here](https://github.com/AceSilentKill/PC7-Client/releases/latest).)   
 **Tip:** Ensure you are downloading the proper file for your device.<br>
 **Tip:** The majority of users on Windows will need to install x64 versions.
 
