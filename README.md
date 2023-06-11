@@ -92,10 +92,10 @@ PC7 allows you to save logs of game chat.
 
 ## <3
 Special thanks to the following people who supported the development of this project:
- - [Z3dboy](https://krunker.io/social.html?p=profile&q=ASA_z3db0y)
- - [Creepycats / Gato](https://krunker.io/social.html?p=profile&q=creepycats)
- - [Forgoted / тєямιηαℓ](https://krunker.io/social.html?p=profile&q=%D1%82%D1%94%D1%8F%D0%BC%CE%B9%CE%B7%CE%B1%E2%84%93)
- - [KraXen72](https://github.com/KraXen72/) Launch Arguments, Keystrokes base
+ - [Z3dboy](https://krunker.io/social.html?p=profile&q=ASA_z3db0y): Client build actions, lots of advice
+ - [Creepycats / Gato](https://krunker.io/social.html?p=profile&q=creepycats): Advice, keystrokes overlay movement, and some initial help with client features
+ - [Forgoted / тєямιηαℓ](https://krunker.io/social.html?p=profile&q=%D1%82%D1%94%D1%8F%D0%BC%CE%B9%CE%B7%CE%B1%E2%84%93): Client build actions, advice
+ - [KraXen72](https://github.com/KraXen72/): Launch Arguments, Keystrokes base
 
 ## About The Developers
 ### [AceSilentKill](https://krunker.io/social.html?p=profile&q=acesilentkill) / **Client Dev, Designer**
