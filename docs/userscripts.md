@@ -82,6 +82,11 @@ Userscripts are provided with definitions for many of the [utilities that Tamper
   - Many of the `GM_*` functions are not yet supported and have been disabled (these will only return false)
     - Support for some of these disabled functions may be added in the future
   - As a replacement for both `GM_xmlhttpRequest` and `GM_webRequest`, PC7 has defined `GM_fetch` (works the same as your standard fetch request would)
+  - In addition to `GM_addstyle`, PC7 has defined `injectCSS`, a more robust function to inject and modify styles
+    - This function takes two arguments:
+      - `style`: the CSS you wish to inject
+      - `id`: the id of the style element
+    - Calling `injectCSS` with an `id` that already exists will simply update the contents of that CSS with the new `style` 
 - `GM_META_INFO` is also defined by PC7. This will contain the parsed meta info from your script as an object. If you need to reference this info your script you may
 
 ## PC7 Utilities
