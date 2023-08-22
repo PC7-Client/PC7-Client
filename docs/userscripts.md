@@ -11,6 +11,7 @@ The structure of PC7 userscripts is designed to closely mimic traditional usersc
 	- [PC7 Utilities](#pc7-utilities)
 		- [SettingsUtil](#adding-settings-menus-for-your-userscripts)
 		- [Config](#config)
+  		- [Console](#console)
 
 > Using PC7's userscript system to cheat or do anything that breaks [Krunker's Terms & Conditions](https://krunker.io/docs/terms.txt) is not allowed. In addition to violating Krunker's Terms & Conditions, this will also be considered a violation of PC7's Terms Of Service.<br>
 > We reserve the right to terminate access to PC7 client and assume zero responsibility for anything that happens as a result of your misuse of this feature.
@@ -180,4 +181,10 @@ Example usage of this utility:
 config.set('yesnt', 20); // Sets our config entry for 'yesnt' to 20
 console.log(config.get('yesnt', 30)); // Outputs: 20
 ```
- 
+
+### Console
+By default, krunker makes it difficult to interact with the console in the standard way. 
+To make debugging and testing userscripts much easier, PC7 provides userscripts with a utility object `console`, that contains three functions that allow you to interact with your devTools console:
+- `console.log`
+- `console.warn`
+- `console.error`
