@@ -33,32 +33,39 @@
 - Inside your `PC7Swap` folder there is also a JSON file named `externalResourceSwapper(.json)`  
   - This file can be used to redirect outbound requests for krunker's resources to resources not stored on your local machine  
 
-### EasyCSS
-![EasyCSS](./media/easycss.png)\
-EasyCSS is a system that allows you to load custom css files easier  
-- This feature allows you to swap your CSS in real time, without resouce swapping or refreshing  
-- Many of our CSS files are frequently updated, including some formerly-popular CSS files that broke after Krunker's most recent UI changes
+### EasyCSS & Customization
+![Customization Options](./media/customize.png)\
+- EasyCSS is a system that allows you to load custom css files easier:
+  - This feature allows you to swap your CSS in real time, without resouce swapping or refreshing  
+  - Many of our CSS files are frequently updated, including some formerly-popular CSS files that broke after Krunker's most recent UI changes  
+- The Customize options allow you customize a lot of UI with many different options   
  
 ### Twitch Integration
 ![Twitch Login](./media/twitch.png)
 
-1. Login to Twitch in settings  
-2. Restart PC7  
+To use Twitch Integration you must connect PC7 to your Twitch account in settings  
 
-- Your viewers can use `!link` command in your stream chat when the setting is enabled to get the link to your game 
-- Your twitch chat (emotes + role badges) can be shown in game above game chat  
-- You can customize the default name color for users with no color set, as well as the height of the twitch chat element 
+Our Twitch Integration allows you to use a live, interactive chat within the game itself  
+It has many features designed to make PC7 the best client for content creation  
 
-### Tips
-- You can toggle whether `!link` command is enabled in your stream chat in settings or via the link button when alt manager UI is enabled.
-- You can right click the link button when alt manager UI is enabled to send the game link even when the command is disabled for your viewers.
+PC7 has many commands that content creators would traditionally use Twitch bots for: 
+- `!link`: Sends a chat with a link to your current game  
+- `!client`: Sends a chat with a link to the client  
+- `!profile`: Sends a chat with a link to your profile  
+- `!nukes`: Sends a chat with your total amount of nukes  
+- `!mod`: Sends a chat with info about your currently loaded mod  
+These commands require much less effort to maintain when compared to traditional, manually-updated Twtich bot responses  
+
+Our Twitch Integration also brings a unique experience will the ability to allow your viewers to run special commands:
+- Different commands can be set to be available to different types of viewers (EX: Mod, Vip, Sub), and range from playing sounds to fun visual filters
+- You can link many of these commands to your Twitch channel rewards as well  
 
 ## Keyboard Overlay
-![Keyboard Overlay](./media/KeyStrokesOverlay.png)\
-PC7 lets you configure your keyboard overlay.
+![Keyboard Overlay](./media/keystrokes.png)\
+PC7 lets you configure an easy-to-use keyboard overlay.
 
 ## Quality Of Life Features
-![Quality Of Life Features](./media/QualityOfLife.png)\
+![Quality Of Life Features](./media/qol.png)\
 PC7 offers a variety of standard "QOL" features.
 
 ## UI Tweaks
