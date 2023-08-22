@@ -12,6 +12,7 @@ The structure of PC7 userscripts is designed to closely mimic traditional usersc
 		- [SettingsUtil](#adding-settings-menus-for-your-userscripts)
 		- [Config](#config)
   		- [Console](#console)
+ 		- [Example Script Using Mutiple Utilities](#example-script-using-mutiple-utilities) 
 
 > Using PC7's userscript system to cheat or do anything that breaks [Krunker's Terms & Conditions](https://krunker.io/docs/terms.txt) is not allowed. In addition to violating Krunker's Terms & Conditions, this will also be considered a violation of PC7's Terms Of Service.<br>
 > We reserve the right to terminate access to PC7 client and assume zero responsibility for anything that happens as a result of your misuse of this feature.
@@ -100,7 +101,7 @@ To use this utility, you may call `SettingsUtil` and provide it an object to use
 
 Example usage of this utility:
 ```js
-SettingsUtil({
+const settingsName = SettingsUtil({
     'Name_Of_Settings_Header_1': {
         favoriteNumber: {
             title: 'Favorite Number',
@@ -160,8 +161,13 @@ The basic structure of the object passed to `SettingsUtil` must be consistent wi
   - `refresh`: Setting this to true will add a refresh indicator to the settings entry (optional)
   - `restart`: Setting this to true will add a restart indicator to the settings entry (optional)
 
-This function can only be called a single time.
-If you use `SettingsUtil`, you should run the function as close to the start of your script as possible.
+If the object provided to `SettingsUtil` successfully creates settings, the function will return the name of your settings entry in the config
+If `SettingsUtil` fails to properly add the settings, it returns `false`
+In order to access the values of the settings entries you configure, you will need to utilize this return value
+
+`SettingsUtil` will not allow multiple userscripts that share the same name (Meta Info) to add settings
+`SettingsUtil` can only be called a single time during the execution of your userscript
+If you use `SettingsUtil`, you should run the function as close to the start of your script as possible
 
 ### Config
 PC7 provides userscripts with a utility object, `config`, that contains three properties that allow you to interact with the client config file:
@@ -178,8 +184,13 @@ PC7 provides userscripts with a utility object, `config`, that contains three pr
 
 Example usage of this utility:
 ```js
+console.log(config.has('yesnt')); // Outputs: false
+
 config.set('yesnt', 20); // Sets our config entry for 'yesnt' to 20
-console.log(config.get('yesnt', 30)); // Outputs: 20
+
+console.log(config.has('yesnt')); // Outputs: true
+
+console.log(config.get('yesnt', 30)); // Outputs our config entry for 'yesnt': 20
 ```
 
 ### Console
@@ -188,3 +199,62 @@ To make debugging and testing userscripts much easier, PC7 provides userscripts 
 - `console.log`
 - `console.warn`
 - `console.error`
+
+### Example Script Using Mutiple Utilities
+```js
+// ==UserScript==
+// @name         SettingsUtil Example
+// @description  TESTS
+// @author       AceSilentKill (BestBuy)
+// @match        *://krunker.io/*
+// @grant        none
+// @version      1.0 
+// @run-at       document-end
+// ==/UserScript==
+
+/* Settings */
+const settingsName = SettingsUtil({
+    'Name_Of_Settings_Header_1': {
+        favoriteNumber: {
+            title: 'Favorite Number',
+            type: 'select',
+            options: {
+                none: 'I dont like numbers :(',
+                correct: '20',
+                incorrect: 'My opinion is wrong',
+            },
+            val: 'correct',
+            desc: 'Select your favorite color out of the options provided',
+        },
+        favoriteColor: {
+            title: 'Favorite Color',
+            type: 'color',
+            val: '#FFFFFF',
+        },
+        momsMaidenName: {
+            title: 'What is your mothers maiden name?',
+            type: 'text',
+            val: '',
+        },
+        coolCheckbox1: {
+            title: 'Checkbox With Refresh Required',
+            type: 'checkbox',
+            val: false,
+            refresh: true
+        },
+        coolCheckbox2: {
+            title: 'Checkbox With Restart Required',
+            type: 'checkbox',
+            val: false,
+            restart: true
+        },
+    },
+});
+
+if (!settingsName) { // If we dont have a name here (settingsName would be false), that means that SettingsUtil has failed
+    console.warn('SettingsUtil Failed :(');
+} else {
+    const favoriteColor = config.get(settingsName + '.Name_Of_Settings_Header_1.favoriteColor.val', false); // Gets the value of favoriteColor from the settings in the config
+    console.log(favoriteColor); // Logs the value of favoriteColor to console
+}
+```
