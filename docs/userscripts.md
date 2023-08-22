@@ -20,23 +20,23 @@ The structure of PC7 userscripts is designed to closely mimic traditional usersc
 PC7 parses traditional userscript metadata comment blocks (commonly referred to as "Userscript Headers").
 
 In your metadata block:  
-- You are only required to provide the `@name` field, failure to provide this field will result in the script refusing to run.
+- You are only required to provide the `@name` field, failure to provide this field will result in the script refusing to run
 - The `@run-at` field may have the following values:
-  - `document-start`: The script will be injected as fast as possible.
-  - `document-body`: The script will be injected when the body element exists.
-  - `document-end`: The script will be injected when or after the DOMContentLoaded event was dispatched.
-  - `document-idle`: The script will be injected after the gameLoaded event was dispatched (this is an event is fired by PC7).
-  - If you do not provide one of these options it will default to `document-idle`, which runs after the game has loaded.
-- The `@match` field is ignored as of now, but may be used in the future once support for social hub, viewer, and/or sandbox is added.  
-- The `@grant` field is ignored as of now, but may be used in the future.  
-- The `@resource` field is partially supported.  
+  - `document-start`: The script will be injected as fast as possible
+  - `document-body`: The script will be injected when the body element exists
+  - `document-end`: The script will be injected when or after the DOMContentLoaded event was dispatched
+  - `document-idle`: The script will be injected after the gameLoaded event was dispatched (this is an event is fired by PC7)
+  - If you do not provide one of these options it will default to `document-idle`, which runs after the game has loaded
+- The `@match` field is ignored as of now, but may be used in the future once support for social hub, viewer, and/or sandbox is added
+- The `@grant` field is ignored as of now, but may be used in the future
+- The `@resource` field is partially supported
   - **WARNING:** We do not currently support Tampermonkey's Subresource Integrity. Use at your own risk!
-- The `@require` field is partially supported.  
+- The `@require` field is partially supported
   - **WARNING:** We do not currently support Tampermonkey's Subresource Integrity. Use at your own risk!
-  - Depending on how quickly the fetch requests for your requires are, changes to your requires may not affect what is loaded and evaluated until the 2nd refresh following your changes.
+  - Depending on how quickly the fetch requests for your requires are, changes to your requires may not affect what is loaded and evaluated until the 2nd refresh following your changes
   
-All scripts will be run in the context that the game runs in (the equivalent of `@sandbox MAIN_WORLD`), meaning you do not need to set the `@sandbox` field.
-Any aditional valid fields may be added, but will have no effect on the script.
+All scripts will be run in the context that the game runs in (the equivalent of `@sandbox MAIN_WORLD`), meaning you do not need to set the `@sandbox` field
+Any aditional valid fields may be added, but will have no effect on the script
 
 For more information about what you can use in your userscript meta block read [Tampermonkey Docs](https://www.tampermonkey.net/documentation.php)
   
@@ -74,23 +74,23 @@ Copy this template to the top of your userscript to ensure PC7 will run it:
 
 ## Traditional Utility Functions
 
-Userscripts are provided with definitions for many of the [utilities that Tampermonkey would traditionally provide](https://www.tampermonkey.net/documentation.php).
+Userscripts are provided with definitions for many of the [utilities that Tampermonkey would traditionally provide](https://www.tampermonkey.net/documentation.php)
 
-- To maintain consistency with tampermonkey and ensure higher compatability with existing scripts, `unsafeWindow` is defined by PC7.
-  - Your scripts are able to interact with `unsafeWindow` and `window` interchangeably.
-- All Tampermonkey `GM_*` (grant) functions are defined by PC7.
-  - Many of the `GM_*` functions are not yet supported and have been disabled (these will only return false).
-    - Support for some of these disabled functions may be added in the future.
-  - As a replacement for both `GM_xmlhttpRequest` and `GM_webRequest`, PC7 has defined `GM_fetch` (works the same as your standard fetch request would).
-- `GM_META_INFO` is also defined by PC7. This will contain the parsed meta info from your script as an object. If you need to reference this info your script you may.
+- To maintain consistency with tampermonkey and ensure higher compatability with existing scripts, `unsafeWindow` is defined by PC7
+  - Your scripts are able to interact with `unsafeWindow` and `window` interchangeably
+- All Tampermonkey `GM_*` (grant) functions are defined by PC7
+  - Many of the `GM_*` functions are not yet supported and have been disabled (these will only return false)
+    - Support for some of these disabled functions may be added in the future
+  - As a replacement for both `GM_xmlhttpRequest` and `GM_webRequest`, PC7 has defined `GM_fetch` (works the same as your standard fetch request would)
+- `GM_META_INFO` is also defined by PC7. This will contain the parsed meta info from your script as an object. If you need to reference this info your script you may
 
 ## PC7 Utilities
 
 ### Adding settings menus for your userscripts
-PC7 provides userscripts with a utility function, `SettingsUtil`, that can be used to add settings menus to your userscripts. 
-This can be used to easily manage userscript settings and prevent users of your script from needing to edit the file to configure settings.  
+PC7 provides userscripts with a utility function, `SettingsUtil`, that can be used to add settings menus to your userscripts
+This can be used to easily manage userscript settings and prevent users of your script from needing to edit the file to configure settings
 
-To use this utility, you may call `SettingsUtil` and provide it an object to use to generate the settings menu.
+To use this utility, you may call `SettingsUtil` and provide it an object to use to generate the settings menu
 
 Example usage of this utility:
 ```js
