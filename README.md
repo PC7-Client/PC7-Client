@@ -25,6 +25,7 @@
   - [Fun Options](#fun-options)
   - [Chat Logs](#chat-logs)
   - [Userscripts](#userscripts)
+  - [Social Hub](#social-hub)
 - [Default Keybinds](#default-keybinds)
 - [<3](#3)
 - [About The Developers](#about-the-developers)
@@ -112,6 +113,13 @@ PC7 allows you to save logs of both game chat and trade chats
 PC7 allows you to use your own userscripts
 For more information, please read [our documentation](./docs/userscripts.md)
 
+### Social Hub
+![Social Hub](./media/socialtabs.png)\
+PC7 has an advanced tab system baked into social hub to make using social hub much easier
+- The tabs function the same as your standard chrome tabs
+- Tabs are auto muted when they are not focused
+- The default chrome shortcuts for opening/closing tabs are supported
+
 ## Default Keybinds
 |  Key  |         Function         |
 | :---: | :----------------------: |
@@ -128,7 +136,8 @@ For more information, please read [our documentation](./docs/userscripts.md)
 |  Shift + F1 |    Open Alt Manager   | 
 |  CommandOrControl + Shift + F1  |      Restart Client      | 
 |  CommandOrControl + Shift + F9  |  Temporarily Remove CSS  | 
-|  CommandOrControl + Shift + F10  |  Disable Autoload Mods  | 
+|  CommandOrControl + Shift + F10  |  Disable Autoload Mods  |
+
 You may change these keybinds at any time by opening the keybinds settings menu (found under `Settings > Client > General > Client Bind Options`)
 
 ## <3
