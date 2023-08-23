@@ -11,7 +11,6 @@
 [![Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/total?logo=appveyor)](https://github.com/AceSilentKill/PC7-Client/releases)
 [![Discord](https://img.shields.io/discord/1081864043570147400?color=blue&label=discord)](https://discord.gg/BxweEFyZFm) </br>
 
-<br><br>
 - [PC7 Client for Krunker](#pc7-client-for-krunker)
   - [What is PC7?](#what-is-pc7)
   - [How do I install PC7?](#how-do-i-install-pc7)
@@ -29,6 +28,7 @@
 - [Default Keybinds](#default-keybinds)
 - [<3](#3)
 - [About The Developers](#about-the-developers)
+- [Final Notes](#final-notes)
 
 ## What is PC7?
 **PC7 is short for PokeCuber7**  
@@ -143,6 +143,9 @@ Special thanks to the following people who supported the development of this pro
 ### [AceSilentKill](https://krunker.io/social.html?p=profile&q=acesilentkill) / **Client Dev, Designer**
 ### [Error](https://krunker.io/social.html?p=profile&q=Error430) / **Client Dev, Designer**
 ### [PokeCuber7](https://krunker.io/social.html?p=profile&q=PokeCuber7) / **Owner, Designer**
+
+## Final Notes
+Please join our discord to stay in the loop on updates, partnerships, and opportunities to earn some badges :)
 
 **This project was originally based off of the works of the original authors listed here: https://github.com/LaFClient/LaF#readme**  
 **The original license from is bundled within the application files**  
