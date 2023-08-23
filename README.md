@@ -11,6 +11,21 @@
 [![Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/total?logo=appveyor)](https://github.com/AceSilentKill/PC7-Client/releases)
 [![Discord](https://img.shields.io/discord/1081864043570147400?color=blue&label=discord)](https://discord.gg/BxweEFyZFm) </br>
 
+<br><br>
+- [PC7 Client for Krunker](#pc7-client-for-krunker)
+  - [What is PC7?](#what-is-pc7)
+  - [How do I install PC7?](#how-do-i-install-pc7)
+- [Important Features](#important-features)
+  - [Resource Swapper](#resource-swapper)
+  - [EasyCSS & Customization](#easycss--customization)
+  - [Twitch Integration](#twitch-integration)
+  - [Keystrokes Overlay](#keystrokes-overlay)
+  - [Nuke Counter Overlay](#nuke-counter-overlay)
+  - [Quality Of Life Features](#quality-of-life-features)
+  - [UI Tweaks](#ui-tweaks)
+  - [Fun Options](#fun-options)
+  - [Chat Logs](#chat-logs)
+
 ## What is PC7?
 **PC7 is short for PokeCuber7**  
 - Originally built upon the ashes of LaF, PC7 brings a number of new features to the table  
@@ -60,41 +75,53 @@ Our Twitch Integration also brings a unique experience will the ability to allow
 - Different commands can be set to be available to different types of viewers (EX: Mod, Vip, Sub), and range from playing sounds to fun visual filters
 - You can link many of these commands to your Twitch channel rewards as well  
 
-## Keyboard Overlay
+### Keystrokes Overlay
 ![Keyboard Overlay](./media/keystrokes.png)\
-PC7 lets you configure an easy-to-use keyboard overlay.
+PC7 lets you configure an easy-to-use keystokes overlay  
+- The keys used are determined based off of your krunker keybinds  
 
-## Quality Of Life Features
+### Nuke Counter Overlay
+![Keyboard Overlay](./media/nukecounter.png)\
+PC7 lets you configure an easy-to-use nuke counter overlay  
+- This overlay will update your nuke count between games  
+
+### Quality Of Life Features
 ![Quality Of Life Features](./media/qol.png)\
-PC7 offers a variety of standard "QOL" features.
+PC7 offers a variety of standard "QOL" features  
 
-## UI Tweaks
+### UI Tweaks
 ![UI Tweaks](./media/UITweaks.png)\
-PC7 offers some UI tweaking features. (More to come)
+PC7 offers some UI tweaking features (more to come)  
 
-## Fun Options
+### Fun Options
 ![Fun Options](./media/Fun.png)\
-PC7 offers a variety "fun" features.
+PC7 offers a variety "fun" features  
 
-## Chat Logs
+### Chat Logs
 ![Fun Options](./media/ChatLogs.png)\
-PC7 allows you to save logs of game chat.
- - Enables easier screenshots or copying in situations where game chat may scroll too fast.
- - All items clickable inside game chat are clickable inside your chat logs as well.
- - Right click a log to copy all text.
+PC7 allows you to save logs of both game chat and trade chats  
+ - This allows for much easier screenshots or copying in situations where chat may scroll too fast  
+ - All clickable links inside the game chat are clickable inside your chat logs as well (while the game window is open)  
+ - You can filter messages by type to make screenshotting much more convenient  
 
-## Keybinds
+## Default Keybinds
 |  Key  |         Function         |
 | :---: | :----------------------: |
-|  F1   |     Open Chat Logger     |
-|  F2   |        Log Chats         |
-|  F3   |    Connection Checker    |
+|  F1   |      Open Chat Logs      |
+|  F2   |   Suspect Command (KPD)  |
+|  F3   | Connection Check Command |
 |  F4   |      HyperQuickJoin      |
 |  F5   |          Reload          |
 |  F6   |     Join a New Game      |
 |  F7   |      Copy Game URL       |
 |  F8   |  Open URL in Clipboard   |
+|  F11  |        Fullscreen        | 
 |  F12  |      Open DevTools       | 
+|  Shift + F1 |    Open Alt Manager   | 
+|  CommandOrControl + Shift + F1  |      Restart Client      | 
+|  CommandOrControl + Shift + F9  |  Temporarily Remove CSS  | 
+|  CommandOrControl + Shift + F10  |  Disable Autoload Mods  | 
+You may change these keybinds at any time by opening the keybinds settings menu (found under `Settings > Client > General > Client Bind Options`)
 
 ## <3
 Special thanks to the following people who supported the development of this project:
