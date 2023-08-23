@@ -25,6 +25,7 @@
   - [UI Tweaks](#ui-tweaks)
   - [Fun Options](#fun-options)
   - [Chat Logs](#chat-logs)
+  - [Userscripts](#userscripts)
 - [Default Keybinds](#default-keybinds)
 - [<3](#3)
 - [About The Developers](#about-the-developers)
@@ -105,7 +106,11 @@ PC7 offers a variety of "fun" features (aka useless)
 PC7 allows you to save logs of both game chat and trade chats  
  - This allows for much easier screenshots or copying in situations where chat may scroll too fast  
  - All clickable links inside the game chat are clickable inside your chat logs as well (while the game window is open)  
- - You can filter messages by type to make screenshotting much more convenient  
+ - You can filter messages by type to make screenshotting much more convenient
+
+### Userscripts
+PC7 allows you to use your own userscripts
+For more information, please read [our documentation](./docs/userscripts.md)
 
 ## Default Keybinds
 |  Key  |         Function         |
