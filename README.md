@@ -25,6 +25,9 @@
   - [UI Tweaks](#ui-tweaks)
   - [Fun Options](#fun-options)
   - [Chat Logs](#chat-logs)
+- [Default Keybinds](#default-keybinds)
+- [<3](#3)
+- [About The Developers](#about-the-developers)
 
 ## What is PC7?
 **PC7 is short for PokeCuber7**  
@@ -95,7 +98,7 @@ PC7 offers some UI tweaking features (more to come)
 
 ### Fun Options
 ![Fun Options](./media/Fun.png)\
-PC7 offers a variety "fun" features  
+PC7 offers a variety of "fun" features (aka useless) 
 
 ### Chat Logs
 ![Fun Options](./media/ChatLogs.png)\
@@ -137,4 +140,5 @@ Special thanks to the following people who supported the development of this pro
 ### [PokeCuber7](https://krunker.io/social.html?p=profile&q=PokeCuber7) / **Owner, Designer**
 
 **This project was originally based off of the works of the original authors listed here: https://github.com/LaFClient/LaF#readme**  
-**The original license from is bundled within the application files**
+**The original license from is bundled within the application files**  
+**While near zero code remains from the original base of this project, credit must be given where it is due <3**
