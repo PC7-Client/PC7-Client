@@ -154,7 +154,7 @@ Special thanks to the following people who supported the development of this pro
 ### [PokeCuber7](https://krunker.io/social.html?p=profile&q=PokeCuber7) / **Owner, Designer**
 
 ## Final Notes
-Please join our discord to stay in the loop on updates, partnerships, and opportunities to earn some badges :)
+Please join [our discord](https://discord.gg/BxweEFyZFm) to stay in the loop on updates, partnerships, and opportunities to earn some badges :)
 
 **This project was originally based off of the works of the original authors listed here: https://github.com/LaFClient/LaF#readme**  
 **The original license from is bundled within the application files**  
