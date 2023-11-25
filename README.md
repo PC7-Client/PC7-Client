@@ -147,7 +147,7 @@ Special thanks to the following people who supported the development of this pro
  - [Forgoted / тєямιηαℓ](https://krunker.io/social.html?p=profile&q=%D1%82%D1%94%D1%8F%D0%BC%CE%B9%CE%B7%CE%B1%E2%84%93): Client build actions, advice
  - [KraXen72](https://github.com/KraXen72/): Some launch arguments, pretty keystrokes overlay base
  - [Z3dboy](https://krunker.io/social.html?p=profile&q=ASA_z3db0y): Client build actions
- - [Vaq1](https://krunker.io/social.html?p=profile&q=7evel): Significant badge work, design work
+ - [Vaq1](https://krunker.io/social.html?p=profile&q=7evel): Significant badge work, client design
 
 ## About The Developers
 ### [AceSilentKill](https://krunker.io/social.html?p=profile&q=acesilentkill) / **Client Dev, Designer**
