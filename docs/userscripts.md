@@ -29,7 +29,7 @@ In your metadata block:
   - `document-end`: The script will be injected when or after the DOMContentLoaded event was dispatched
   - `document-idle`: The script will be injected after the gameLoaded event was dispatched (this is an event is fired by PC7)
   - If you do not provide one of these options it will default to `document-idle`, which runs after the game has loaded
-- The `@match` field is ignored as of now, but may be used in the future once support for social hub, viewer, and/or sandbox is added
+- The `@match` field works differently than it does in Tampermonkey/GreaseMonkey. You may provide the keywords `social` or `hub` to execute your script on the social hub. It will otherwise be ran in the context of the game.
 - The `@grant` field is ignored as of now, but may be used in the future
 - The `@resource` field is partially supported
   - **WARNING:** We do not currently support Tampermonkey's Subresource Integrity. Use at your own risk!
@@ -49,7 +49,7 @@ For more information about what you can use in your userscript meta block read [
 // @name         Hello World!!!
 // @description  Prints Hello World To Console
 // @author       AceSilentKill
-// @match        *://krunker.io/*
+// @match        game
 // @grant        none
 // @version      0.1 
 // @run-at       document-start
@@ -67,7 +67,7 @@ Copy this template to the top of your userscript to ensure PC7 will run it:
 // @name         The Script Name Goes Here
 // @description  The Description Of The Script Goes Here
 // @author       The Script's Author(s) Name Goes Here
-// @match        *://krunker.io/*
+// @match        game
 // @grant        none
 // @version      0.1 
 // @run-at       document-start
@@ -206,7 +206,7 @@ To make debugging and testing userscripts much easier, PC7 provides userscripts 
 // @name         SettingsUtil Example
 // @description  TESTS
 // @author       AceSilentKill (BestBuy)
-// @match        *://krunker.io/*
+// @match        game
 // @grant        none
 // @version      1.0 
 // @run-at       document-end
