@@ -142,7 +142,7 @@ You may change these keybinds at any time by opening the keybinds settings menu 
 
 ## <3
 Special thanks to the following people who supported the development of this project:
- - [Error](https://krunker.io/social.html?p=profile&q=Error430): Significant client API work, pc7 discord bot 
+ - [Error](https://krunker.io/social.html?p=profile&q=Error430): Significant client API work, some client features 
  - [Creepycats / Gato](https://krunker.io/social.html?p=profile&q=creepycats): Advice, keystrokes overlay movement, and some initial help with client features
  - [Forgoted / тєямιηαℓ](https://krunker.io/social.html?p=profile&q=%D1%82%D1%94%D1%8F%D0%BC%CE%B9%CE%B7%CE%B1%E2%84%93): Client build actions, advice
  - [KraXen72](https://github.com/KraXen72/): Some launch arguments, pretty keystrokes overlay base
@@ -151,7 +151,6 @@ Special thanks to the following people who supported the development of this pro
 
 ## About The Developers
 ### [AceSilentKill](https://krunker.io/social.html?p=profile&q=acesilentkill) / **Client Dev, Designer**
-### [Error](https://krunker.io/social.html?p=profile&q=Error430) / **Client Dev, Designer**
 ### [PokeCuber7](https://krunker.io/social.html?p=profile&q=PokeCuber7) / **Owner, Designer**
 
 ## Final Notes
