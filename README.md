@@ -48,7 +48,7 @@
 
 ## Important Features
 ### Resource Swapper
-- Path: `%HOMEPATH%\Documents\PC7Swap`  
+- Path: `%APPDATA%\PC7\PC7Swap`  
 - Works similar to other client's swappers. The folder structure works the same as your standard mod  
 - Inside your `PC7Swap` folder there is also a JSON file named `externalResourceSwapper(.json)`  
   - This file can be used to redirect outbound requests for krunker's resources to resources not stored on your local machine  
