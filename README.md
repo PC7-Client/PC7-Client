@@ -150,6 +150,7 @@ Special thanks to the following people who supported the development of this pro
  - [Vaq1](https://krunker.io/social.html?p=profile&q=7evel): Significant badge work, client design
 
 ## About The Developers
+### [bunny.dev](https://krunker.io/social.html?p=profile&q=River-_-1) / **Client Dev, Designer**
 ### [AceSilentKill](https://krunker.io/social.html?p=profile&q=acesilentkill) / **Client Dev, Designer**
 ### [PokeCuber7](https://krunker.io/social.html?p=profile&q=PokeCuber7) / **Owner, Designer**
 
