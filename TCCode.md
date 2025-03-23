@@ -1,6 +1,8 @@
 # TC String Button - Usage Guide
 
-The TC String button allows you to quickly switch to Krunker's beta servers using TC codes. This guide will walk you through how to use this feature in the PC7 client.
+The TC String button allows you to quickly switch to Krunker's beta servers using TC codes. This guide will walk you through how to use this feature in the PC7 client. 
+
+## Make sure you are on the latest version of PC7!
 
 ## What is a TC Code?
 
@@ -10,13 +12,13 @@ A TC code is a special identifier that lets you connect to specific Krunker beta
 
 ### Step 1: Find the TC Button
 
-![TC Button Location](https://imgur.com/a/UJarHrQ)
+![TC Button Location](https://i.ibb.co/m5c5jrKP/image.png)
 
 The TC button is located alongside the other navigation buttons at the top of your Krunker client interface. It's labeled simply "TC" and will open a popup when clicked.
 
 ### Step 2: Enter Your TC Code
 
-![TC Code Input](https://imgur.com/HXgkcTz)
+![TC Code Input](https://i.ibb.co/ch4bww3H/image.png)
 
 1. Click on the TC button to open the input popup
 2. Enter your TC code in the text field (example: `7698321c2c371ff3e7e1afcb84bd180ca8294fc4`)
@@ -43,3 +45,4 @@ Remember that TC codes are usually meant for specific purposes and may not alway
 ---
 
 *Note: This feature is only available in the PC7 client and not in the official Krunker client or browser version.*
+
