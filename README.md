@@ -8,8 +8,7 @@
 ![TitleImage](./media/loadingscreen-1.png)</br>
 [![Latest](https://img.shields.io/github/v/release/AceSilentKill/PC7-Client)](https://github.com/AceSilentKill/PC7-Client/releases/latest)
 [![Latest Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/latest/total)](https://github.com/AceSilentKill/PC7-Client/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/total?logo=appveyor)](https://github.com/AceSilentKill/PC7-Client/releases)
-[![Discord](https://img.shields.io/discord/1081864043570147400?color=blue&label=discord)](https://discord.gg/BxweEFyZFm) </br>
+[![Downloads](https://img.shields.io/github/downloads/AceSilentKill/PC7-Client/total?logo=appveyor)](https://github.com/AceSilentKill/PC7-Client/releases) </br>
 
 - [PC7 Client for Krunker](#pc7-client-for-krunker)
   - [What is PC7?](#what-is-pc7)
